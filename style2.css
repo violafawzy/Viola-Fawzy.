@@ -1,0 +1,44 @@
+/*table{
+    display: block;
+padding-left: 40%;}*/
+.table{
+    width: 250px;
+    padding-left: 42%;
+}
+table{
+    display: block;
+}
+p{
+    display: inline;
+    
+}
+iframe{
+    padding-left: 30%;
+}
+fieldset {
+    display: inline-block;
+    background-color: #ffe9fa;
+  }
+  
+  legend {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    padding: 5px 10px;
+  }
+
+  form{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    background-image: url(pics/purple.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: local;}
+
+a{
+    color: rgb(67, 43, 92);
+}
+
+#lab label{
+    color: rgb(67, 43, 92);
+}

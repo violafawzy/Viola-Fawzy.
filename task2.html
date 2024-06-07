@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="icon" type="image/x-icon" href="pics/icon.png">
+
+</head>
+
+<body style="margin: 0;">
+    <form style="text-align: center; " action="index.html">
+
+        <fieldset id="lab">
+            <legend>Login Info</legend>
+            <input type="hidden" placeholder="Your ID">
+            <br>
+            <br>
+            <label>First Name</label>
+            <input required type="text" placeholder="First Name">
+            <br>
+            <br>
+            <label>Last Name</label>
+            <input required type="text" placeholder="Last Name">
+            <br>
+            <br>
+            <label>E-Mail</label>
+            <input required type="email" placeholder="Your email">
+            <br>
+            <br>
+            <label>Password</label>
+            <input type="password" placeholder="set password">
+            <br>
+            <br>
+            <label>Repeat Password</label>
+            <input type="password" placeholder="confirm password">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset style="width: 15%;">
+            <legend>Personal info</legend>
+            <label style=" color: rgb(67, 43, 92);">BirthDay</label>
+            <br>
+            <input type="date" placeholder="Your birthday">
+            <br>
+
+            <br>
+            <br>
+            <label style=" color: rgb(67, 43, 92);">Your picture</label>
+            <br>
+            <input type="file" name="pic">
+            <br>
+
+            <br>
+            <br>
+            <p style=" color: rgb(67, 43, 92);">Gender</p>
+            <br>
+            <input type="radio" id="f" name="Gender" value="Female">
+              <label for="f">Female</label>
+              <input type="radio" id="m" name="Gender" value="Male">
+              <label for="m">Male</label>
+             <br>
+
+            <br>
+            <br>
+            <label style=" color: rgb(67, 43, 92);" for="Faculty" >Faculty</label>
+            <br>
+            <select id="Faculty" name="Faculty">
+                <option>Computers and Information</option>
+                <option>Engineering</option>
+                <option>Fine Arts</option>
+
+            </select>
+            <br>
+            <br>
+
+            <br>
+
+            <p style=" color: rgb(67, 43, 92);">Your Interestes</p>
+            <br>
+
+            <input type="checkbox" id="Drawing" name="Interstes" value="Drawing">
+            <label for="Drawing">Drawing</label>
+
+            <input type="checkbox" id="Reading" name="Interstes" value="Reading">
+            <label for="Reading">Reading</label>
+
+            <input type="checkbox" id="Acting" name="Interstes" value="Acting">
+            <label for="Acting">Acting</label>
+            <br>
+            <br>
+
+            <br>
+            <div style="margin-top: 5px;"><label style=" color: rgb(67, 43, 92);" for="AboutYou">About you</label></div>
+            <textarea name="AboutYou" id="AboutYou"></textarea>
+        </fieldset>
+        <br>
+        <br>
+
+        <br>
+        <input type="checkbox" id="Conditions" name="Conditions" value="Conditions">
+        <label for="Conditions"><a target="_blank" href="conditions.html">I agree To Terms and Conditions</a></label>
+
+        <br>
+        <br>
+
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+<br>
+
+</body>
+
+</html>
